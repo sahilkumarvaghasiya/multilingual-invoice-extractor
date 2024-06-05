@@ -1,27 +1,28 @@
-# multilingual-invoice-extractor
-Description:
 
-Briefly explain what the project does:
-This project utilizes LangChain to create a multilingual invoice extractor.
-It can process invoices in various languages and extract key information like amounts, dates, and vendor details.
-Mention the target audience:
-This is ideal for anyone who needs to automate invoice processing from different languages.
-Features:
+# Multilingual Invoice Extractor with LangChain
 
-List some key features of your project:
-Supports multiple languages (mention specific languages if applicable).
-Extracts critical invoice data (amounts, dates, vendor details).
-Easy-to-use Streamlit interface (if applicable).
-Built on top of Google's LangChain technology.
-Installation:
+This project leverages Google's LangChain technology to create a powerful multilingual invoice extractor. It streamlines invoice processing by accurately extracting key information like amounts, dates, and vendor details from invoices in various languages.
 
-Provide clear instructions on how to install and run the project:
-Mention any dependencies required (e.g., python, specific libraries).
-Explain how to set up a virtual environment (recommended).
-Include commands for installing dependencies and running the app.
-Usage:
+**Ideal for:**
 
-Guide users on how to use your project:
-Explain how to upload invoice images or provide input text.
-Describe the expected output format (extracted data).
-Include screenshots or GIFs demonstrating usage (if applicable).
+- Anyone who needs to automate multilingual invoice processing.
+- Businesses that handle invoices from international clients or suppliers.
+- Individuals seeking to simplify invoice management across different languages.
+
+**Features:**
+
+- **Multilingual Support:** Processes invoices in various languages (specify languages if applicable). Train the model on additional languages for broader coverage.
+- **Critical Invoice Data Extraction:** Accurately extracts essential information like amounts, dates, vendor details, and other relevant fields based on your training data.
+- **Streamlit Interface (Optional):** Provides a user-friendly interface (if applicable) for uploading invoice images or inputting invoice text, making interaction seamless.
+- **LangChain Integration:** Built upon Google's innovative LangChain technology, ensuring scalability and efficient text processing capabilities.
+
+**Installation:**
+
+1. **Prerequisites:** Ensure you have Python (version X.X or later) and Git installed on your system. You can download them from https://www.python.org/downloads/ and https://git-scm.com/downloads, respectively.
+
+2. **Set Up a Virtual Environment (Recommended):**
+   - Create a virtual environment to isolate project dependencies and avoid conflicts with other Python installations.
+   - Use `venv` (Python 3.3+) or `virtualenv` (older versions) to create a virtual environment:
+
+   ```bash
+   python -m venv venv  # Replace 'venv' with your desired environment name
